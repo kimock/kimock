@@ -35,7 +35,7 @@ Hankuk 전기 작업 안전 수준 전반 저하 (감전 3건, 03.04).
 | 주요 Vendor | DSHI 17건 (42.5%) · Hankuk 17건 (42.5%) |
 | 기타 Vendor | RTCC 4건 (신규) · Samho 1건 · Daemyoung 1건 |
 | 담당 Inspector | Rahul Mor 31건 (77.5%) · Surender Kumar 9건 (22.5%) |
-| 주요 Location | Module 1F 16건 · Module 2F 16건 · Module GF 4건 · Pump Room 4건 |
+| 주요 Location | Module 1F 16건 (40.0%) · Module 2F 16건 (40.0%) · Module GF 4건 (10.0%) · Pump Room 4건 (10.0%) |
 
 ---
 
@@ -71,7 +71,65 @@ Hankuk 전기 작업 안전 수준 전반 저하 (감전 3건, 03.04).
 
 ---
 
-## 5. 일별 현황
+## 5. Location-wise Breakdown
+
+### 5-1. Location 개요
+
+| Location | 건수 | 비율 | 주요 Vendor | 조치完 | 미조치 |
+|----------|-----:|-----:|------------|------:|------:|
+| **Module 1F** | 16 | 40.0% | DSHI 10 · Hankuk 6 | 11 | **5** |
+| **Module 2F** | 16 | 40.0% | Hankuk 11 · DSHI 3 | 12 | **4** |
+| Module GF | 4 | 10.0% | DSHI 4 | 4 | 0 |
+| Pump Room | 4 | 10.0% | RTCC 4 | 3 | 1 |
+| **합계** | **40** | **100%** | | **30** | **10** |
+
+### 5-2. Location × Risk Type
+
+| Location | ⑤ 전도·낙하·부딪힘 | ④ 떨어짐·낙상 | N/A Minor | ③ 감전·합선 | ② 화재 | ⑦ 끼임 | 합계 |
+|----------|---------------:|----------:|----------:|----------:|------:|------:|----:|
+| Module 1F | 10 | 1 | 3 | 1 | 1 | 0 | **16** |
+| Module 2F | 5 | 7 | 0 | 3 | 0 | 1 | **16** |
+| Module GF | 2 | 0 | 2 | 0 | 0 | 0 | **4** |
+| Pump Room | 3 | 0 | 1 | 0 | 0 | 0 | **4** |
+
+### 5-3. Location × 날짜
+
+| Location | 30.03 | 31.03 | 01.04 | 02.04 | 03.04 |
+|----------|------:|------:|------:|------:|------:|
+| Module 1F | 2 | **7** | 3 | 2 | 2 |
+| Module 2F | 6 | 0 | 0 | **5** | **5** |
+| Module GF | 2 | 1 | 1 | 0 | 0 |
+| Pump Room | 0 | 0 | **4** | 0 | 0 |
+
+### 5-4. Location별 주요 특이사항
+
+**Module 1F (16건, 미조치 5건)**
+- DSHI 10건 + Hankuk 6건 — 31.03에 7건 집중 (인양·리깅 집중 작업일)
+- ⑤ 전도·낙하·부딪힘 10건: 인양 하부 미차단(No.210)·리깅 불량(No.209, 224)·낙하물 산란 반복
+- ③ 감전 1건(No.223, DSHI) — 용접기 접지 미연결
+- ② 화재 1건(No.238, DSHI) — 손상 방화포 사용
+- **미조치 5건** 중 인양 관련 3건(No.209·210·224) 포함 → 중대재해 직결 위험 상존
+
+**Module 2F (16건, 미조치 4건)**
+- Hankuk 11건 지배 — 02.04(5건)·03.04(5건) 주중 후반 집중
+- ④ 떨어짐·낙상 7건: "Unsafe opening at height" 패턴 3건 반복(No.227·233·237), 무장벽 고소 작업
+- ③ 감전·합선 3건: HIGH RISK 맨발 전기 작업(No.231, 02.04) · 노출 케이블(No.235, 미조치) · RCCB 커버 파손(No.236)
+- ⑦ 끼임 1건(No.234, Daemyoung) — 저프로파일 볼트 노출, 미조치
+- **미조치 4건** 중 ③ 감전 1건(No.235) 포함 → 즉시 조치 요구
+
+**Module GF (4건, 미조치 0건)**
+- DSHI 전담, 전량 조치 완료
+- ⑤ 2건: 구조물 측면 지지대 미설치(No.200), 저프로파일 드릴비트 노출(No.216)
+- Minor 2건: 붐리프트 신호수 미배치(No.207), 장비 점검 태그 미부착(No.221)
+
+**Pump Room (4건, 미조치 1건)**
+- RTCC 전담 — 01.04 콘크리트 타설 작업 집중 (W6 신규 Vendor)
+- ⑤ 3건: 가이드 로프 미사용·트럭 고임목 미설치·손상 비계 자재 사용(No.220, 미조치)
+- Minor 1건: 콘크리트 작업 중 PPE 미착용
+
+---
+
+## 6. 일별 현황
 
 | 날짜 | 건수 | Vendor | 주요 Risk Type | 조치完/미조치 |
 |------|-----:|--------|--------------|:-----------:|
@@ -87,85 +145,85 @@ Hankuk 전기 작업 안전 수준 전반 저하 (감전 3건, 03.04).
 
 ### 30.03.2026 (10건)
 
-| No. | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
-|-----|--------|-----------|-----------|---------|:---:|
-| 199 | DSHI | Surender Kumar | ⑤ Dropping | Loose nut bolts at height near edge area | ✅ |
-| 200 | DSHI | Rahul Mor | ⑤ Collapse | Beam/heavy structure side support not provided for both side | ✅ |
-| 201 | Hankuk | Surender Kumar | ⑤ Dropping | Loose materials out of material lifting box body/boundaries | ❌ |
-| 202 | Hankuk | Rahul Mor | ④ Falling | Access way to working point at height (scaffold) not available | ❌ |
-| 203 | Hankuk | Rahul Mor | ⑤ Dropping | Toe guard not installed in scaffold area | ✅ |
-| 204 | Samho | Rahul Mor | ⑤ Impact | Job specific PPE not used by worker | ✅ |
-| 205 | Hankuk | Rahul Mor | ④ Falling | Incomplete scaffolding / Opening area not barricaded | ✅ |
-| 206 | DSHI | Surender Kumar | ④ Falling | Painter working in unsafe manner at height | ❌ |
-| 207 | DSHI | Surender Kumar | N/A Minor | No signalman & no boom lift operator near boom lift during work at height | ✅ |
-| 208 | Hankuk | Surender Kumar | ⑤ Dropping | Loose materials of different sizes being lifted unsafely | ✅ |
+| No. | Location | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
+|-----|----------|--------|-----------|-----------|---------|:---:|
+| 199 | Module 2F | DSHI | Surender Kumar | ⑤ Dropping | Loose nut bolts at height near edge area | ✅ |
+| 200 | Module GF | DSHI | Rahul Mor | ⑤ Collapse | Beam/heavy structure side support not provided for both side | ✅ |
+| 201 | Module 1F | Hankuk | Surender Kumar | ⑤ Dropping | Loose materials out of material lifting box body/boundaries | ❌ |
+| 202 | Module 2F | Hankuk | Rahul Mor | ④ Falling | Access way to working point at height (scaffold) not available | ❌ |
+| 203 | Module 2F | Hankuk | Rahul Mor | ⑤ Dropping | Toe guard not installed in scaffold area | ✅ |
+| 204 | Module 2F | Samho | Rahul Mor | ⑤ Impact | Job specific PPE not used by worker | ✅ |
+| 205 | Module 2F | Hankuk | Rahul Mor | ④ Falling | Incomplete scaffolding / Opening area not barricaded | ✅ |
+| 206 | Module 2F | DSHI | Surender Kumar | ④ Falling | Painter working in unsafe manner at height | ❌ |
+| 207 | Module GF | DSHI | Surender Kumar | N/A Minor | No signalman & no boom lift operator near boom lift during work at height | ✅ |
+| 208 | Module 1F | Hankuk | Surender Kumar | ⑤ Dropping | Loose materials of different sizes being lifted unsafely | ✅ |
 
 ### 31.03.2026 (8건)
 
-| No. | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
-|-----|--------|-----------|-----------|---------|:---:|
-| 209 | Hankuk | Surender Kumar | ⑤ Dropping | Improper sling adjustment — risk of load shifting/slipping out of rigging | ❌ |
-| 210 | Hankuk | Rahul Mor | ⑤ Dropping | Underneath area not cordoned off & personnel not removed from lifting zone | ❌ |
-| 211 | DSHI | Rahul Mor | N/A Minor | Step plan training attendance without signature | ✅ |
-| 212 | DSHI | Rahul Mor | N/A Minor | Step plan document for erection & lifting not displayed at SOP board | ✅ |
-| 213 | DSHI | Rahul Mor | ⑤ Collapse | Unsafe loose platform — rolling platform ladder without outrigger & inspection tag | ❌ |
-| 214 | DSHI | Rahul Mor | ⑤ Dropping | Loose materials scattered at staircase area at height near edge area | ✅ |
-| 215 | DSHI | Rahul Mor | ⑤ Dropping | Edge protection not available & loose materials placed nearby | ✅ |
-| 216 | DSHI | Rahul Mor | ⑤ Impact | Protruding drill bit (low profile) at ground — needs removal | ✅ |
+| No. | Location | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
+|-----|----------|--------|-----------|-----------|---------|:---:|
+| 209 | Module 1F | Hankuk | Surender Kumar | ⑤ Dropping | Improper sling adjustment — risk of load shifting/slipping out of rigging | ❌ |
+| 210 | Module 1F | Hankuk | Rahul Mor | ⑤ Dropping | Underneath area not cordoned off & personnel not removed from lifting zone | ❌ |
+| 211 | Module 1F | DSHI | Rahul Mor | N/A Minor | Step plan training attendance without signature | ✅ |
+| 212 | Module 1F | DSHI | Rahul Mor | N/A Minor | Step plan document for erection & lifting not displayed at SOP board | ✅ |
+| 213 | Module 1F | DSHI | Rahul Mor | ⑤ Collapse | Unsafe loose platform — rolling platform ladder without outrigger & inspection tag | ❌ |
+| 214 | Module 1F | DSHI | Rahul Mor | ⑤ Dropping | Loose materials scattered at staircase area at height near edge area | ✅ |
+| 215 | Module 1F | DSHI | Rahul Mor | ⑤ Dropping | Edge protection not available & loose materials placed nearby | ✅ |
+| 216 | Module GF | DSHI | Rahul Mor | ⑤ Impact | Protruding drill bit (low profile) at ground — needs removal | ✅ |
 
 ### 01.04.2026 (8건)
 
-| No. | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
-|-----|--------|-----------|-----------|---------|:---:|
-| 217 | RTCC | Rahul Mor | ⑤ Impact | Concrete pump hose pipe handled by naked hand without guide rope | ✅ |
-| 218 | RTCC | Rahul Mor | N/A Minor | Workers not using hand gloves, safety goggles & PPE during concrete work | ✅ |
-| 219 | RTCC | Rahul Mor | ⑤ Overturning | Concrete truck without wheel stoppers | ✅ |
-| 220 | RTCC | Rahul Mor | ⑤ Collapse | Damaged & rusted scaffolding materials used in scaffold | ❌ |
-| 221 | DSHI | Rahul Mor | N/A Minor | Boom lift inspection tag/documentation not displayed | ✅ |
-| 222 | Hankuk | Rahul Mor | ④ Falling | Unsafe opening at height | ✅ |
-| 223 | DSHI | Rahul Mor | ③ Electric shock | Welding machine body earthing wire has no clamp/holder, not connected at any point | ✅ |
-| 224 | Hankuk | Surender Kumar | ⑤ Dropping | Improper load balance — risk of entire bundle sliding out of rigging | ❌ |
+| No. | Location | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
+|-----|----------|--------|-----------|-----------|---------|:---:|
+| 217 | Pump Room | RTCC | Rahul Mor | ⑤ Impact | Concrete pump hose pipe handled by naked hand without guide rope | ✅ |
+| 218 | Pump Room | RTCC | Rahul Mor | N/A Minor | Workers not using hand gloves, safety goggles & PPE during concrete work | ✅ |
+| 219 | Pump Room | RTCC | Rahul Mor | ⑤ Overturning | Concrete truck without wheel stoppers | ✅ |
+| 220 | Pump Room | RTCC | Rahul Mor | ⑤ Collapse | Damaged & rusted scaffolding materials used in scaffold | ❌ |
+| 221 | Module GF | DSHI | Rahul Mor | N/A Minor | Boom lift inspection tag/documentation not displayed | ✅ |
+| 222 | Module 1F | Hankuk | Rahul Mor | ④ Falling | Unsafe opening at height | ✅ |
+| 223 | Module 1F | DSHI | Rahul Mor | ③ Electric shock | Welding machine body earthing wire has no clamp/holder, not connected at any point | ✅ |
+| 224 | Module 1F | Hankuk | Surender Kumar | ⑤ Dropping | Improper load balance — risk of entire bundle sliding out of rigging | ❌ |
 
 ### 02.04.2026 (7건)
 
-| No. | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
-|-----|--------|-----------|-----------|---------|:---:|
-| 225 | DSHI | Rahul Mor | ⑤ Dropping | Loose materials placed at excessive height | ✅ |
-| 226 | Hankuk | Rahul Mor | ④ Falling | No barrier at height — worker standing in unsafe manner | ✅ |
-| 227 | Hankuk | Rahul Mor | ④ Falling | Unsafe opening at height | ✅ |
-| 228 | Hankuk | Rahul Mor | ⑤ Impact | Sharp-edged rebars without insulation & reflective at face height | ✅ |
-| 229 | DSHI | Rahul Mor | ⑤ Collapse | Steel structure without side support | ✅ |
-| 230 | DSHI | Rahul Mor | ⑤ Impact | **NEAR MISS** — Improper use of Hydraulic pallet trolley; unsecured steel plates shifted by single person | ✅ |
-| 231 | Hankuk | Rahul Mor | ③ Electric shock | **HIGH RISK** — Naked feet near electric cable & rotating parts of concrete power trowel machine | ✅ |
+| No. | Location | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
+|-----|----------|--------|-----------|-----------|---------|:---:|
+| 225 | Module 1F | DSHI | Rahul Mor | ⑤ Dropping | Loose materials placed at excessive height | ✅ |
+| 226 | Module 2F | Hankuk | Rahul Mor | ④ Falling | No barrier at height — worker standing in unsafe manner | ✅ |
+| 227 | Module 2F | Hankuk | Rahul Mor | ④ Falling | Unsafe opening at height | ✅ |
+| 228 | Module 2F | Hankuk | Rahul Mor | ⑤ Impact | Sharp-edged rebars without insulation & reflective at face height | ✅ |
+| 229 | Module 1F | DSHI | Rahul Mor | ⑤ Collapse | Steel structure without side support | ✅ |
+| 230 | Module 1F | DSHI | Rahul Mor | ⑤ Impact | **NEAR MISS** — Improper use of Hydraulic pallet trolley; unsecured steel plates shifted by single person | ✅ |
+| 231 | Module 2F | Hankuk | Rahul Mor | ③ Electric shock | **HIGH RISK** — Naked feet near electric cable & rotating parts of concrete power trowel machine | ✅ |
 
 ### 03.04.2026 (7건)
 
-| No. | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
-|-----|--------|-----------|-----------|---------|:---:|
-| 232 | DSHI | Surender Kumar | N/A Minor | Damaged PPE safety shoes | ✅ |
-| 233 | Hankuk | Rahul Mor | ④ Falling | Unsafe opening at height (gap in platforms at height) | ✅ |
-| 234 | Daemyoung | Rahul Mor | ⑦ Entrapment | Unsafe low-profile bolt with trip & fall hazards | ❌ |
-| 235 | Hankuk | Rahul Mor | ③ Electric shock | 2–3 boards with exposed single-insulated cables | ❌ |
-| 236 | Hankuk | Rahul Mor | ③ Electric shock | Extension board RCCB upper cover is damaged | ✅ |
-| 237 | Hankuk | Rahul Mor | ④ Falling | Unsafe opening at height | ✅ |
-| 238 | DSHI | Surender Kumar | ② Fire | Damaged fire blankets used during hot work | ✅ |
+| No. | Location | Vendor | Inspector | Risk Type | 위반 내용 | 조치 |
+|-----|----------|--------|-----------|-----------|---------|:---:|
+| 232 | Module 1F | DSHI | Surender Kumar | N/A Minor | Damaged PPE safety shoes | ✅ |
+| 233 | Module 2F | Hankuk | Rahul Mor | ④ Falling | Unsafe opening at height (gap in platforms at height) | ✅ |
+| 234 | Module 2F | Daemyoung | Rahul Mor | ⑦ Entrapment | Unsafe low-profile bolt with trip & fall hazards | ❌ |
+| 235 | Module 2F | Hankuk | Rahul Mor | ③ Electric shock | 2–3 boards with exposed single-insulated cables | ❌ |
+| 236 | Module 2F | Hankuk | Rahul Mor | ③ Electric shock | Extension board RCCB upper cover is damaged | ✅ |
+| 237 | Module 2F | Hankuk | Rahul Mor | ④ Falling | Unsafe opening at height | ✅ |
+| 238 | Module 1F | DSHI | Surender Kumar | ② Fire | Damaged fire blankets used during hot work | ✅ |
 
 ---
 
 ## 7. 미조치 항목 현황 (10건)
 
-| No. | 날짜 | Vendor | Risk Type | 위반 내용 |
-|-----|------|--------|-----------|---------|
-| 201 | 30.03 | Hankuk | ⑤ Dropping | Loose materials out of lifting box boundaries |
-| 202 | 30.03 | Hankuk | ④ Falling | Access way to scaffold working point not available |
-| 206 | 30.03 | DSHI | ④ Falling | Painter working in unsafe manner at height |
-| 209 | 31.03 | Hankuk | ⑤ Dropping | Improper sling adjustment — load shifting risk |
-| 210 | 31.03 | Hankuk | ⑤ Dropping | Lifting zone underneath not cordoned off |
-| 213 | 31.03 | DSHI | ⑤ Collapse | Unsafe loose platform ladder — no outrigger, no inspection tag |
-| 220 | 01.04 | RTCC | ⑤ Collapse | Damaged & rusted scaffolding materials |
-| 224 | 01.04 | Hankuk | ⑤ Dropping | Improper load balance — rigging bundle slide risk |
-| 234 | 03.04 | Daemyoung | ⑦ Entrapment | Unsafe low-profile bolt — trip & fall hazard |
-| 235 | 03.04 | Hankuk | ③ Electric shock | 2–3 boards with exposed single-insulated cables |
+| No. | 날짜 | Location | Vendor | Risk Type | 위반 내용 |
+|-----|------|----------|--------|-----------|---------|
+| 201 | 30.03 | Module 1F | Hankuk | ⑤ Dropping | Loose materials out of lifting box boundaries |
+| 202 | 30.03 | Module 2F | Hankuk | ④ Falling | Access way to scaffold working point not available |
+| 206 | 30.03 | Module 2F | DSHI | ④ Falling | Painter working in unsafe manner at height |
+| 209 | 31.03 | Module 1F | Hankuk | ⑤ Dropping | Improper sling adjustment — load shifting risk |
+| 210 | 31.03 | Module 1F | Hankuk | ⑤ Dropping | Lifting zone underneath not cordoned off |
+| 213 | 31.03 | Module 1F | DSHI | ⑤ Collapse | Unsafe loose platform ladder — no outrigger, no inspection tag |
+| 220 | 01.04 | Pump Room | RTCC | ⑤ Collapse | Damaged & rusted scaffolding materials |
+| 224 | 01.04 | Module 1F | Hankuk | ⑤ Dropping | Improper load balance — rigging bundle slide risk |
+| 234 | 03.04 | Module 2F | Daemyoung | ⑦ Entrapment | Unsafe low-profile bolt — trip & fall hazard |
+| 235 | 03.04 | Module 2F | Hankuk | ③ Electric shock | 2–3 boards with exposed single-insulated cables |
 
 > **Hankuk 미조치 6건 (60%)** — 인양·리깅 관련 4건이 포함되어 중대재해 위험 상존  
 > **③ 감전 미조치 1건** (No.235, 03.04) — 노출 케이블은 즉시 조치 요구
